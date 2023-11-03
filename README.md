@@ -17,6 +17,10 @@ Ermitteln Sie auch noch den kleinsten Wert der drei Zahlen und geben Sie diesen 
 ## . . . . . . . . . .... [SPOILER] .... . . . . . . . . 
 
 ## Visual Studio
+![vs1](https://github.com/IxI-Enki/Uebung-013/assets/138018029/275c29e6-4452-4332-9728-7353dcabb349)
+![vs2](https://github.com/IxI-Enki/Uebung-013/assets/138018029/df90ca27-c57c-4845-bcfd-079cd3182175)
+
 
 ## Ausgabe
+![a](https://github.com/IxI-Enki/Uebung-013/assets/138018029/62f46279-1e44-4636-95c6-d0c71066aa8b)
 
