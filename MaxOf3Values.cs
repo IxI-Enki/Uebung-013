@@ -39,19 +39,19 @@ namespace MaxOf3Values
         valueOne = valueTwo;
         valueTwo = swapValue;
       }
+      // Verarbeitung (V)  --  test values one vs three
+      if (valueOne > valueThree)
+      {
+        swapValue = valueThree;
+        valueThree = valueOne;
+        valueOne = swapValue;
+      }
       // Verarbeitung (V)  --  test values two vs three
       if (valueTwo > valueThree)
       {
         swapValue = valueTwo;
         valueTwo = valueThree;
         valueThree = swapValue;
-      }
-      // Verarbeitung (V)  --  test values one vs three
-      if (valueThree < valueOne)
-      {
-        swapValue = valueThree;
-        valueThree = valueOne;
-        valueOne = swapValue;
       }
 
       // Ausgabe      (A)  -- sorted output
