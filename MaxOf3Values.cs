@@ -33,14 +33,14 @@ namespace MaxOf3Values
       valueThree = Convert.ToDouble(Console.ReadLine());
 
       // Verarbeitung (V)  --  test values one vs two
-      if (valueOne < valueTwo)
+      if (valueOne > valueTwo)
       {
         swapValue = valueOne;
         valueOne = valueTwo;
         valueTwo = swapValue;
       }
       // Verarbeitung (V)  --  test values two vs three
-      if (valueTwo < valueThree)
+      if (valueTwo > valueThree)
       {
         swapValue = valueTwo;
         valueTwo = valueThree;
@@ -53,6 +53,7 @@ namespace MaxOf3Values
         valueThree = valueOne;
         valueOne = swapValue;
       }
+
       // Ausgabe      (A)  -- sorted output
       Console.WriteLine("--------------------");
       Console.WriteLine($"Der kleinste Wert ist: {valueOne}");
